@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80CE7DAB1FA4F10D006E13F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE7DAA1FA4F10D006E13F1 /* AppDelegate.swift */; };
+		80CE7DAD1FA4F10D006E13F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE7DAC1FA4F10D006E13F1 /* ViewController.swift */; };
+		80CE7DB01FA4F10D006E13F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CE7DAE1FA4F10D006E13F1 /* Main.storyboard */; };
+		80CE7DB21FA4F10D006E13F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CE7DB11FA4F10D006E13F1 /* Assets.xcassets */; };
+		80CE7DB51FA4F10D006E13F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CE7DB31FA4F10D006E13F1 /* LaunchScreen.storyboard */; };
+		80CE7DC01FA4F10D006E13F1 /* PillTrak_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE7DBF1FA4F10D006E13F1 /* PillTrak_Tests.swift */; };
+		80CE7DCB1FA4F10D006E13F1 /* PillTrak_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE7DCA1FA4F10D006E13F1 /* PillTrak_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CE7DBC1FA4F10D006E13F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CE7D9F1FA4F10D006E13F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CE7DA61FA4F10D006E13F1;
+			remoteInfo = "PillTrak+";
+		};
+		80CE7DC71FA4F10D006E13F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CE7D9F1FA4F10D006E13F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CE7DA61FA4F10D006E13F1;
+			remoteInfo = "PillTrak+";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80CE7DA71FA4F10D006E13F1 /* PillTrak+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PillTrak+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CE7DAA1FA4F10D006E13F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80CE7DAC1FA4F10D006E13F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80CE7DAF1FA4F10D006E13F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80CE7DB11FA4F10D006E13F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80CE7DB41FA4F10D006E13F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80CE7DB61FA4F10D006E13F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CE7DBB1FA4F10D006E13F1 /* PillTrak+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PillTrak+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CE7DBF1FA4F10D006E13F1 /* PillTrak_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillTrak_Tests.swift; sourceTree = "<group>"; };
+		80CE7DC11FA4F10D006E13F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CE7DC61FA4F10D006E13F1 /* PillTrak+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PillTrak+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CE7DCA1FA4F10D006E13F1 /* PillTrak_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillTrak_UITests.swift; sourceTree = "<group>"; };
+		80CE7DCC1FA4F10D006E13F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CE7DA41FA4F10D006E13F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CE7DB81FA4F10D006E13F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CE7DC31FA4F10D006E13F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CE7D9E1FA4F10D006E13F1 = {
+			isa = PBXGroup;
+			children = (
+				80CE7DA91FA4F10D006E13F1 /* PillTrak+ */,
+				80CE7DBE1FA4F10D006E13F1 /* PillTrak+Tests */,
+				80CE7DC91FA4F10D006E13F1 /* PillTrak+UITests */,
+				80CE7DA81FA4F10D006E13F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80CE7DA81FA4F10D006E13F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CE7DA71FA4F10D006E13F1 /* PillTrak+.app */,
+				80CE7DBB1FA4F10D006E13F1 /* PillTrak+Tests.xctest */,
+				80CE7DC61FA4F10D006E13F1 /* PillTrak+UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CE7DA91FA4F10D006E13F1 /* PillTrak+ */ = {
+			isa = PBXGroup;
+			children = (
+				80CE7DAA1FA4F10D006E13F1 /* AppDelegate.swift */,
+				80CE7DAC1FA4F10D006E13F1 /* ViewController.swift */,
+				80CE7DAE1FA4F10D006E13F1 /* Main.storyboard */,
+				80CE7DB11FA4F10D006E13F1 /* Assets.xcassets */,
+				80CE7DB31FA4F10D006E13F1 /* LaunchScreen.storyboard */,
+				80CE7DB61FA4F10D006E13F1 /* Info.plist */,
+			);
+			path = "PillTrak+";
+			sourceTree = "<group>";
+		};
+		80CE7DBE1FA4F10D006E13F1 /* PillTrak+Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80CE7DBF1FA4F10D006E13F1 /* PillTrak_Tests.swift */,
+				80CE7DC11FA4F10D006E13F1 /* Info.plist */,
+			);
+			path = "PillTrak+Tests";
+			sourceTree = "<group>";
+		};
+		80CE7DC91FA4F10D006E13F1 /* PillTrak+UITests */ = {
+			isa = PBXGroup;
+			children = (
+				80CE7DCA1FA4F10D006E13F1 /* PillTrak_UITests.swift */,
+				80CE7DCC1FA4F10D006E13F1 /* Info.plist */,
+			);
+			path = "PillTrak+UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CE7DA61FA4F10D006E13F1 /* PillTrak+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CE7DCF1FA4F10D006E13F1 /* Build configuration list for PBXNativeTarget "PillTrak+" */;
+			buildPhases = (
+				80CE7DA31FA4F10D006E13F1 /* Sources */,
+				80CE7DA41FA4F10D006E13F1 /* Frameworks */,
+				80CE7DA51FA4F10D006E13F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PillTrak+";
+			productName = "PillTrak+";
+			productReference = 80CE7DA71FA4F10D006E13F1 /* PillTrak+.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80CE7DBA1FA4F10D006E13F1 /* PillTrak+Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CE7DD21FA4F10D006E13F1 /* Build configuration list for PBXNativeTarget "PillTrak+Tests" */;
+			buildPhases = (
+				80CE7DB71FA4F10D006E13F1 /* Sources */,
+				80CE7DB81FA4F10D006E13F1 /* Frameworks */,
+				80CE7DB91FA4F10D006E13F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CE7DBD1FA4F10D006E13F1 /* PBXTargetDependency */,
+			);
+			name = "PillTrak+Tests";
+			productName = "PillTrak+Tests";
+			productReference = 80CE7DBB1FA4F10D006E13F1 /* PillTrak+Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80CE7DC51FA4F10D006E13F1 /* PillTrak+UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CE7DD51FA4F10D006E13F1 /* Build configuration list for PBXNativeTarget "PillTrak+UITests" */;
+			buildPhases = (
+				80CE7DC21FA4F10D006E13F1 /* Sources */,
+				80CE7DC31FA4F10D006E13F1 /* Frameworks */,
+				80CE7DC41FA4F10D006E13F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CE7DC81FA4F10D006E13F1 /* PBXTargetDependency */,
+			);
+			name = "PillTrak+UITests";
+			productName = "PillTrak+UITests";
+			productReference = 80CE7DC61FA4F10D006E13F1 /* PillTrak+UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CE7D9F1FA4F10D006E13F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ian Pearson";
+				TargetAttributes = {
+					80CE7DA61FA4F10D006E13F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					80CE7DBA1FA4F10D006E13F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80CE7DA61FA4F10D006E13F1;
+					};
+					80CE7DC51FA4F10D006E13F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80CE7DA61FA4F10D006E13F1;
+					};
+				};
+			};
+			buildConfigurationList = 80CE7DA21FA4F10D006E13F1 /* Build configuration list for PBXProject "PillTrak+" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80CE7D9E1FA4F10D006E13F1;
+			productRefGroup = 80CE7DA81FA4F10D006E13F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CE7DA61FA4F10D006E13F1 /* PillTrak+ */,
+				80CE7DBA1FA4F10D006E13F1 /* PillTrak+Tests */,
+				80CE7DC51FA4F10D006E13F1 /* PillTrak+UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CE7DA51FA4F10D006E13F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CE7DB51FA4F10D006E13F1 /* LaunchScreen.storyboard in Resources */,
+				80CE7DB21FA4F10D006E13F1 /* Assets.xcassets in Resources */,
+				80CE7DB01FA4F10D006E13F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CE7DB91FA4F10D006E13F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CE7DC41FA4F10D006E13F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CE7DA31FA4F10D006E13F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CE7DAD1FA4F10D006E13F1 /* ViewController.swift in Sources */,
+				80CE7DAB1FA4F10D006E13F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CE7DB71FA4F10D006E13F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CE7DC01FA4F10D006E13F1 /* PillTrak_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CE7DC21FA4F10D006E13F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CE7DCB1FA4F10D006E13F1 /* PillTrak_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80CE7DBD1FA4F10D006E13F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CE7DA61FA4F10D006E13F1 /* PillTrak+ */;
+			targetProxy = 80CE7DBC1FA4F10D006E13F1 /* PBXContainerItemProxy */;
+		};
+		80CE7DC81FA4F10D006E13F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CE7DA61FA4F10D006E13F1 /* PillTrak+ */;
+			targetProxy = 80CE7DC71FA4F10D006E13F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80CE7DAE1FA4F10D006E13F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CE7DAF1FA4F10D006E13F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80CE7DB31FA4F10D006E13F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CE7DB41FA4F10D006E13F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80CE7DCD1FA4F10D006E13F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80CE7DCE1FA4F10D006E13F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CE7DD01FA4F10D006E13F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PillTrak+/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mingnatian.PillTrak-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80CE7DD11FA4F10D006E13F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PillTrak+/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mingnatian.PillTrak-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		80CE7DD31FA4F10D006E13F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PillTrak+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mingnatian.PillTrak-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillTrak+.app/PillTrak+";
+			};
+			name = Debug;
+		};
+		80CE7DD41FA4F10D006E13F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PillTrak+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mingnatian.PillTrak-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PillTrak+.app/PillTrak+";
+			};
+			name = Release;
+		};
+		80CE7DD61FA4F10D006E13F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "PillTrak+UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mingnatian.PillTrak-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "PillTrak+";
+			};
+			name = Debug;
+		};
+		80CE7DD71FA4F10D006E13F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "PillTrak+UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mingnatian.PillTrak-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "PillTrak+";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CE7DA21FA4F10D006E13F1 /* Build configuration list for PBXProject "PillTrak+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CE7DCD1FA4F10D006E13F1 /* Debug */,
+				80CE7DCE1FA4F10D006E13F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CE7DCF1FA4F10D006E13F1 /* Build configuration list for PBXNativeTarget "PillTrak+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CE7DD01FA4F10D006E13F1 /* Debug */,
+				80CE7DD11FA4F10D006E13F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80CE7DD21FA4F10D006E13F1 /* Build configuration list for PBXNativeTarget "PillTrak+Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CE7DD31FA4F10D006E13F1 /* Debug */,
+				80CE7DD41FA4F10D006E13F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80CE7DD51FA4F10D006E13F1 /* Build configuration list for PBXNativeTarget "PillTrak+UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CE7DD61FA4F10D006E13F1 /* Debug */,
+				80CE7DD71FA4F10D006E13F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CE7D9F1FA4F10D006E13F1 /* Project object */;
+}
