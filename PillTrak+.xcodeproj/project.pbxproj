@@ -14,6 +14,8 @@
 		80CE7DB51FA4F10D006E13F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CE7DB31FA4F10D006E13F1 /* LaunchScreen.storyboard */; };
 		80CE7DC01FA4F10D006E13F1 /* PillTrak_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE7DBF1FA4F10D006E13F1 /* PillTrak_Tests.swift */; };
 		80CE7DCB1FA4F10D006E13F1 /* PillTrak_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE7DCA1FA4F10D006E13F1 /* PillTrak_UITests.swift */; };
+		AC14954E1FA52D0C00C6BFC5 /* medicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC14954D1FA52D0C00C6BFC5 /* medicationTableViewCell.swift */; };
+		AC1495501FA5354A00C6BFC5 /* pillDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC14954F1FA5354A00C6BFC5 /* pillDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		80CE7DC61FA4F10D006E13F1 /* PillTrak+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PillTrak+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CE7DCA1FA4F10D006E13F1 /* PillTrak_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillTrak_UITests.swift; sourceTree = "<group>"; };
 		80CE7DCC1FA4F10D006E13F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC14954D1FA52D0C00C6BFC5 /* medicationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = medicationTableViewCell.swift; sourceTree = "<group>"; };
+		AC14954F1FA5354A00C6BFC5 /* pillDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pillDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				80CE7DAA1FA4F10D006E13F1 /* AppDelegate.swift */,
 				80CE7DAC1FA4F10D006E13F1 /* ViewController.swift */,
 				80CE7DAE1FA4F10D006E13F1 /* Main.storyboard */,
+				AC14954F1FA5354A00C6BFC5 /* pillDatePicker.swift */,
+				AC14954D1FA52D0C00C6BFC5 /* medicationTableViewCell.swift */,
 				80CE7DB11FA4F10D006E13F1 /* Assets.xcassets */,
 				80CE7DB31FA4F10D006E13F1 /* LaunchScreen.storyboard */,
 				80CE7DB61FA4F10D006E13F1 /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1495501FA5354A00C6BFC5 /* pillDatePicker.swift in Sources */,
 				80CE7DAD1FA4F10D006E13F1 /* ViewController.swift in Sources */,
+				AC14954E1FA52D0C00C6BFC5 /* medicationTableViewCell.swift in Sources */,
 				80CE7DAB1FA4F10D006E13F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				80CE7DD11FA4F10D006E13F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80CE7DD21FA4F10D006E13F1 /* Build configuration list for PBXNativeTarget "PillTrak+Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				80CE7DD41FA4F10D006E13F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80CE7DD51FA4F10D006E13F1 /* Build configuration list for PBXNativeTarget "PillTrak+UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				80CE7DD71FA4F10D006E13F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
