@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					80CE7DA61FA4F10D006E13F1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y47J3DA32;
 						ProvisioningStyle = Automatic;
 					};
 					80CE7DBA1FA4F10D006E13F1 = {
@@ -420,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y47J3DA32;
 				INFOPLIST_FILE = "PillTrak+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mingnatian.PillTrak-";
@@ -432,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y47J3DA32;
 				INFOPLIST_FILE = "PillTrak+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mingnatian.PillTrak-";
