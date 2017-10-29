@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     var hour = 12
     var min = 15
-    var ampm = 0
+    var ampm = 1
     var delayMed1 = 0
     var delayMed2 = 0
     var hasTaken = false
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func pressTime(_ sender: Any) {
-
+print(getTimeFromDatePicker(datePicker: metaTime) + "\(hour):\(min)")
         
         min = min + 15
         if(min==60){
